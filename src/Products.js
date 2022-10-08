@@ -5,7 +5,6 @@ import axios from "axios";
 import { setProducts } from "./actions";
 
 const Products = () => {
-  //   const products = useSelector((state) => state.allProducts.products);
   const dispatch = useDispatch();
 
   const fetchProducts = async () => {
